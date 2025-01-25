@@ -127,27 +127,13 @@ $openPorts = scanPorts($localHost);
 $systemInfo = getSystemInfo();
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Network Lab</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <style>
-        body {
-            background-color: #f5f5f5;
-        }
-
-        .box {
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .table tr:hover {
-            background-color: #f0f8ff;
-        }
-    </style>
+    <link rel="stylesheet" href="css/bulma.min.css">
 </head>
 
 <body>

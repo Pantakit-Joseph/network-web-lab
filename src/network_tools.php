@@ -113,35 +113,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Network Tools</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <style>
-        body {
-            background-color: #f5f5f5;
-        }
-
-        .box {
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .hero {
-            background: linear-gradient(135deg, #00d1b2, #3273dc);
-            color: white;
-        }
-
-        pre {
-            background-color: #f5f5f5;
-            padding: 1rem;
-            border-radius: 6px;
-            overflow-x: auto;
-        }
-    </style>
+    <link rel="stylesheet" href="css/bulma.min.css">
 </head>
 
 <body>
