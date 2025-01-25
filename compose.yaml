@@ -1,0 +1,15 @@
+services:
+  php-apache-environment:
+    container_name: php-apache
+    image: php:8.4-apache-bookworm
+    cap_add:
+      - NET_RAW
+      - NET_ADMIN
+    volumes:
+      - ./src:/var/www/html/
+    ports:
+      - "8080:80"
+    command: >
+      sh -c "apt-get update &&
+             apt-get install -y iputils-ping traceroute dnsutils whois &&
+             docker-php-entrypoint apache2-foreground"
