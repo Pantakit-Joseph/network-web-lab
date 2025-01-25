@@ -11,8 +11,9 @@ Network Web Lab is a web-based dashboard and toolset for network analysis and mo
 - **System Analysis**: Display CPU, memory, and disk usage information.
 - **Network Tools**: Includes tools like Ping, Host, Traceroute, and DNS Lookup.
 
-## Installation
+## Quick Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Pantakit-Joseph/network-web-lab.git
+To quickly install and set up Network Web Lab, run the following command:
+
+```bash
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/Pantakit-Joseph/network-web-lab/main/install_network_lab.sh)"
